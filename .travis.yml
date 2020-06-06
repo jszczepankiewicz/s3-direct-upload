@@ -5,3 +5,5 @@ jdk:
   - oraclejdk11
   - openjdk11
 dist: trusty
+before_install:
+ - chmod +x gradlew
