@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.org/szczepankiewicz/s3-direct-upload.svg?branch=master)](https://travis-ci.org/github/jszczepankiewicz/s3-direct-upload)
+[![Build Status](https://travis-ci.org/jszczepankiewicz/s3-direct-upload.svg?branch=master)](https://travis-ci.org/jszczepankiewicz/s3-direct-upload)
 
 ## Examples
 ### No restrictions
