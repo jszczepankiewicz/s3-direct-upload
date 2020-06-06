@@ -4,4 +4,4 @@ jdk:
   - openjdk8  
   - oraclejdk11
   - openjdk11
-  
+dist: trusty
