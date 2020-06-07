@@ -1,5 +1,5 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.org/jszczepankiewicz/s3-direct-upload.svg?branch=master)](https://travis-ci.org/jszczepankiewicz/s3-direct-upload)
+![GitHub](https://img.shields.io/github/license/jszczepankiewicz/s3-direct-upload?label=business%20friendly%20license&style=for-the-badge)
+![Travis (.org)](https://img.shields.io/travis/jszczepankiewicz/s3-direct-upload?label=travis%20ci%20build&style=for-the-badge)
 
 ## Examples
 ### No restrictions
