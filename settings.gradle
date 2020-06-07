@@ -1,2 +1,8 @@
-rootProject.name = 'S3SignedUpload'
+rootProject.name = 's3-direct-upload'
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+        termsOfServiceAgree = 'yes'
+    }
+}
 
