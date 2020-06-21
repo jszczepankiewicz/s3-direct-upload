@@ -1,6 +1,8 @@
 ![GitHub](https://img.shields.io/github/license/jszczepankiewicz/s3-direct-upload?label=business%20friendly%20license&style=for-the-badge)
 ![Travis (.org)](https://img.shields.io/travis/jszczepankiewicz/s3-direct-upload?label=travis%20ci%20build&style=for-the-badge)
 
+S3 direct upload is java library to safely upload files directly to AWS s3 using form uploads without sharing with http client aws credentials. In contrast to presigned url form uploads allows more secure uploads without putting sensitive data in url. 
+
 ## Examples
 ### No restrictions
 ```java
