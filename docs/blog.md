@@ -14,7 +14,9 @@ Which translates usually to following flow:
 - optionally execute anti-malware checks
 
 Example architecture might look as following:
+<p align="center"> 
 <img src="https://raw.githubusercontent.com/jszczepankiewicz/s3-direct-upload/master/docs/charts/legacy-upload.png" alt="Upload file through web application" width="600"/>
+</p>
 
 The most common approach when dealing with traditional application would be to upload the files directly from mobile or browser (1) through the webapp (2) with web interface using form upload or api call and streaming. Than web app is storing this in s3 or some filesystem (3). This approach althrough by design quite simple has multiple challenges like: 
 
