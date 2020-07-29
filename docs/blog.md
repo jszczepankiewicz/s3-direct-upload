@@ -60,7 +60,7 @@ If we are fine with providing temporal aws credentials for our clients and let t
 - enforce clients to use aws libraries or some wrappers on that
 ((image))
 
-## using presigned requests
+## Using presigned requests
 Now let's try to focus on last method which is not requiring using aws libraries by client. Aws offers two methods for that
 - presigned urls
 - form uploads
@@ -69,11 +69,12 @@ Now let's try to focus on last method which is not requiring using aws libraries
 Probably the simplest method is to generate so called presigned url (with aws client libraries). We calculate the url and aws client library returns url that can be used on the client side using simple POST uploads. The example flow looks like following:
 ((image))
 
+User having access to SDK is generating the url which contains digest / contral data and is veryfing 
 Looking good from simplicity perspective though following drawbacks are present:
 - not many options to define what can be uploaded 
 - require sending AWSACCESSKEYID to be send in url
 
-Now maybe the latter does not look problematic at first sight it might trigger red alert at security expects. Its due to fact that url usually is not considered as place where secret information should be present and althoguht AWSACCESSKEY is only part of credentials it still might be seen as sending secret in url. Let's focus than on the last one
+Now maybe the latter does not look problematic at first sight it might trigger red alert at security expects. Its due to fact that url usually is not considered as place where secret information should be present and althoguht AWSACCESSKEY is only part of credentials it still might be seen as sending secret in url. Let's focus than on other option that relies on presigned data.
 
 ### Using form uploads
 
